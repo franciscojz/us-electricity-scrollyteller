@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- style="height: 100%; min-height: 100%;" -->
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,500">
+  <link rel="stylesheet" href="./src/style.scss">
+
+  <title>Scrollytelling</title>
+</head>
+
+<body style="margin: 0px">
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div>
+    <h1 id="energy-header"
+      style="font-family: Lato; margin: 0px; padding-left: 50px; padding-top: 1000px; padding-bottom: 250px; background-color: steelblue; color: white">
+      <div>U.S. Electricity Generation</div>
+      <div style="font-size: x-large; padding-top: 20px;">Major shifts from 1950 - 2019 <br/>and the recent reduction of carbon emissions per unit of GDP between 1990 - 2017</div>
+      <div style="font-size: medium; padding-top: 50px;">By Francisco Zalduendo</div>
+    </h1>
+    <div id="scroll-indicator">
+      <div>
+        Scroll Down
+      </div>
+      <div style="padding-left: 40px;">
+        &#8675;
+      </div>
+    </div>
+  </div>
+  <!-- <nav class="navbar">
+    <div data-section="introduction" data-narrationtarget="introStart" class="navButton intro">
+      <h3>Overview</h3>
+    </div>
+    <div data-section="corona" data-narrationtarget="coronaStart" class="navButton corona">
+      <h3>Corona</h3>
+    </div>
+  </nav> -->
+  <div id="corona-web-app" style="margin-top: 150px;"></div>
+  <div style="margin-top: 150px;">
+    <div>
+      <h1 id="energy-footer"
+        style="font-family: Lato; margin: 0px; padding-left: 50px; padding-top: 50px; padding-bottom: 250px; background-color: steelblue; color: white">
+        <div>Takeaways</div>
+        <div style="font-size: x-large; padding-top: 20px;">There have been important shifts in energy source
+          composition that can be summarized as follows.
+          <ul>
+            <li>Coal is no longer king and coal generation is rapidly falling.</li><br />
+            <li>Gas is the new dominant source of U.S. electricity.</li><br />
+            <li>Hydro growth is limited by diminished reputation due to ecological concerns regarding rivers<sup><a href="https://psmag.com/environment/hydro-doesnt-have-to-be-big-4764">7</a></sup>.</li><br />
+            <li>Nuclear has peaked due to rising capital costs of next-generation, safer plants<sup><a href="https://www.nytimes.com/2017/03/29/business/westinghouse-toshiba-nuclear-bankruptcy.html">8</a></sup>.</li><br />
+            <li>Wind and Solar are the new kids in the block.</li>
+          </ul>
+          <br />
+          These trends in energy sources have played a role, though they are not the only factors, behind the declining
+          carbon intensity of the economy of U.S. States.
+        </div>
+      </h1>
+      <!-- </div>
+    <h1 id="energy-header" style="font-family: Lato; padding-left: 50px;">The End</h1> -->
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

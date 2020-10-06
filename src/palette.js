@@ -1,0 +1,20 @@
+// Only add, do not change colors unless also changing in the API's Palette file.
+export const palette = {
+	white: '#ffffff',
+	lightGrey: '#FAFAFA',
+	grey: '#EEEEEE',
+	tooltipGrey: '#6F6F6F',
+	darkGreySnackbar: '#313131',
+	black: '#000000',
+	lightOrange: '#FCD8B4',
+	orange: '#FE9921',
+	red: '#dd2c00',
+	errorRed: '#EF6056',
+	lightGreen: '#27bc42',
+	darkGreen: '#43A047',
+	teal: '#26a69a',
+	lightBlue: '#039be5',
+	steelBlue: '#4682b4',
+	lightPurple: '#f4def9',
+	deepPurple: '#4a148c',
+};

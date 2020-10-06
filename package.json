@@ -1,0 +1,39 @@
+{
+  "name": "us-electricity-scrolly-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development parcel serve index.html --port 1234 --https",
+    "build": "NODE_ENV=production parcel build index.html --no-source-maps",
+    "precommit": "lint-staged",
+    "tsc": "tsc --build src/tsconfig.json"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@ihmeuw/scrollyteller": "^1.0.2",
+    "crossfilter2": "^1.5.4",
+    "d3": "^5.16.0",
+    "dc": "^4.1.1",
+    "lodash-es": "^4.17.15"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.14.2",
+    "sass": "^1.26.9",
+    "typescript": "^3.8.3"
+  },
+  "author": "Francisco Zalduendo",
+  "license": "UNLICENSED"
+}

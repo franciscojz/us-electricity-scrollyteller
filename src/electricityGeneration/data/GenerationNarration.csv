@@ -1,0 +1,60 @@
+narrationId,narrationClass,marginTopVh,marginBottomVh,minHeightVh,h2Text,paragraphText,hRef,hRefText,trigger,graphTitle,graphCaption
+,intro,40,40,50,"<span style=""font-family: Lato;"">Introduction<span>","<span style=""font-family: Lato;"">Electricity generation in the United States has changed greatly over the past 70 years due to a number of developments that led to changes in policies and in technology.<br/><br/>Those changes led to:<ul><li>Topic 1: Shifts in U.S. energy source composition between 1950 and 2019, and</li><br/><li>Topic 2: The reduction of carbon emissions per unit of GDP (also known as carbon intensity) between 1990 - 2017.</li></ul></span>",,,"{
+	""containerStyle"": {
+		""opacity"": ""calc($progress - 0.4)""
+	},
+	""year"": 1950
+}","<span style=""font-family: Lato;"">U.S. Electricity Generation<span>",
+,intro,40,40,50,"<span style=""font-family: Lato;"">Topic 1: U.S. Energy Sources<span>","<span style=""font-family: Lato;"">To examine U.S. electricity sources, we'll look at the different changes over time in the sources of electricity generation.<br/><br/>Note: Data is from the Energy Information Administration.<sup><a href=""https://www.eia.gov/totalenergy/data/monthly/pdf/sec7_5.pdf"">1</a></sup></span>",,,"{
+	""containerStyle"": {
+		""opacity"": 0.9
+	},
+	""year"": 1950
+}","<span style=""font-family: Lato;"">U.S. Electricity Generation<span>",
+,timeSeries,40,40,50,"<span style=""font-family: Lato;"">The 1950s - The Post-War Energy Composition<span>","<span style=""font-family: Lato;"">After World War II, the post-war economic expansion led to a significant increase in the demand for electricity.<br/><br/>During those post-war years the United States was largely dependent on: <ul><li>carbon intensive sources of electricity (coal in particular, but also gas and petroleum) </li><br/><li>hydroelectric electricity generation</li></ul></span>",,,"{
+	""yearDomain"": [1950, 1960], ""year"": null,
+	""svgFileName"": null,
+	""snippet"": null
+}","<span style=""font-family: Lato;"">U.S. Electricity Generation<span>",
+,timeSeries,40,40,50,"<span style=""font-family: Lato;"">The 1960s - Rapid Increase in Electricity Generation from Carbon Sources<span>","<span style=""font-family: Lato;""><ul><li>The U.S. economy grew by 80% and electricitiy generation more than doubled.<sup><a href=""https://fred.stlouisfed.org/series/GDP#0"">2</a></sup></li><br/><li>Carbon-intensive sources of energy remained dominant.</li><br/><li>Some patterns become more evident:<br/><br/><ul><li>coal is the growth engine for electricity generation</li><br/><li>natural gas, petroleum, and hydro remain important</li><br/><li>nuclear arrives as a new technology in the late 1960s.</li></ul></ul></span>",,,"{
+	""yearDomain"": [1960, 1970], ""year"": null,
+	""svgFileName"": null,
+	""snippet"": null
+}","<span style=""font-family: Lato;"">U.S. Electricity Generation<span>",
+,majorEvents,40,40,50,"<span style=""font-family: Lato;"">The 1970s - The Energy Crisis<span>","<span style=""font-family: Lato;"">U.S. support towards Israel led Arab members of the Organization of Petroleum Exporting Countries to impose an oil embargo on the U.S. (1973 - 1974).<br/><br/>The Iranian Revolution let to global oil shortages (1979 - 1980).<br/><br/>As a result,<br/><ul><li>gas and petroleum-based electricity generation plateaued</li><br/><li>coal, due to its domestic abundance, is now clearly the king in electricity generation</li><br/><li>nuclear electricity generation rapidly grows 10-fold</li></ul></span>",,,"{
+	""year"": null, ""yearDomain"": [1970, 1980],
+	""containerStyle"": {
+		""opacity"": 1
+	},
+	""snippet"": null,
+	""highlight"": null,
+	""svgFileName"": ""slide2""
+}","<span style=""font-family: Lato;"">U.S. Electricity Generation<span>",
+,majorEvents,40,40,50,"<span style=""font-family: Lato;"">The 1980s: Trends Deepen<span>","<span style=""font-family: Lato;"">The trends of the 1970s deepen further in the 1980s.<br/><ul><li>Nuclear energy almost doubled its share of electricity generation, from 11% to 19%.</li><br/><li>Coal continued to play the dominant role supplying over 50% of total electricity generation.</li></ul></span>",,,"{
+	""year"": null, ""yearDomain"": [1980, 1990],
+	""containerStyle"": {
+		""opacity"": 1
+	},
+	""snippet"": null,
+	""highlight"": """",
+	""svgFileName"": null
+}","<span style=""font-family: Lato;"">U.S. Electricity Generation<span>",
+,majorEvents,40,40,50,"<span style=""font-family: Lato;"">The 1990s: Three Main Sources<span>","<span style=""font-family: Lato;""><ul><li>Coal maintained its dominance in electricity generation.</li><br/><li>Gas increased its importance in electricity generation by 50%.</li><br/><li>Nuclear plateaus during the 1990s and has changed little since.</li><br/><br/><li>1992 Energy Policy Act provided tax incentives for clean and renewable energy.</li></ul></span>",,,"{
+	""year"": null, ""yearDomain"": [1990, 2000],
+	""containerStyle"": {
+		""opacity"": 1
+	},
+	""snippet"": null,
+	""highlight"": """",
+	""svgFileName"": null
+}","<span style=""font-family: Lato;"">U.S. Electricity Generation<span>",
+,majorEvents,40,40,100,"<span style=""font-family: Lato;"">The 2000s: Timid Signs of Change<span>","<span style=""font-family: Lato;""><ul><li>Gas surpasses nuclear and is the fastest growing source of electricity generation.</li><br/><li>Coal peaks but calls for reducing carbon emissions start playing a role. </li><br/><li>New carbon-free sources of electricity developed in response to the 1970s energy crisis arrive.</li><br/><ul><li>Wind becomes visible as a source of electricity generation by 2010.</li><br/><li>Solar will soon appear as well.</li></ul></ul></span>",,,"{
+   ""year"": null,
+   ""yearDomain"": [2000, 2010],
+     ""snippet"": null
+}","<span style=""font-family: Lato;"">U.S. Electricity Generation<span>",
+,majorEvents,50,50,80,"<span style=""font-family: Lato;"">The 2010s: Clean Energy Starts Dominating the Agenda<span>","<span style=""font-family: Lato;""><ul><li>Concerns over climate change contribute to greater adoption of zero emission technologies such as wind and solar.</li><br/><li>Natural gas replaces coal and becomes the dominant player in electricity generation due to:<br/><br/><ul><li>declining costs of gas extraction </li><br/><li>its value as a cleaner source of electricity when compared to coal</li><br/><li>existing coal plants being 'transformed' to use gas boilers instead of coal boilers.</li></ul>  </li><br/><li>The above developments led to:<br/><br/><ul><li>48% reduction in coal electricity generation</li><br/><li>21% reduction of coal's total share of electricity generation.</li></ul></li><ul></span>",,,"{
+   ""year"": null,
+   ""yearDomain"": [2010, 2019],
+   ""snippet"": null
+}","<span style=""font-family: Lato;"">U.S. Electricity Generation<span>",

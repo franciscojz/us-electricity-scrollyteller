@@ -1,0 +1,48 @@
+narrationId,narrationClass,marginTopVh,marginBottomVh,minHeightVh,h2Text,paragraphText,hRef,hRefText,trigger,graphTitle,graphCaption
+,intro,40,40,50,"<span style=""font-family: Lato;"">Topic 2: The Reduction of Carbon Emissions per unit of GDP<span>","<span style=""font-family: Lato;"">Historically, nations have relied on increasing carbon-consuming resources to fuel their economic growth.<br/><br/>But concerns with climate change and the shift towards a less carbon-intensive service economy has led to a gradual shift<br/><ul><li>away from carbon resources as a driver of GDP and</li><br/><li>towards more carbon-free electricity sources.</li></ul>Note: Data is from the Energy Information Administration<sup><a href=""https://www.eia.gov/electricity/data/state/"">3</a></sup> <sup><a href=""https://www.eia.gov/environment/emissions/state/"">4</a></sup> and the Bureau of Economic Analysis.<sup><a href=""https://fred.stlouisfed.org/release?rid=140"">5</a></sup></span>",,,"{
+	""containerStyle"": {
+		""opacity"": ""calc($progress + 0.6)""
+	}, ""highlight"": null,
+	""yearDomain"": [1990, 2000], ""year"": null
+}","<span style=""font-family: Lato;"">U.S. Carbon Intensity By State Over Time<span>","<span style=""font-family: Lato; font-size: 12px"">Hover over a bubble to see state and generation in Megawatt Hours<span>"
+,intro,40,40,50,"<span style=""font-family: Lato;"">1990-2010: States Reduce Carbon Intensity, Little Change in Carbon-Free Sources<span>","<span style=""font-family: Lato;"">The 15 largest states, in terms of GDP, were able to reduce their carbon intensity as measured by CO<sub>2</sub> emitted per $1 of Gross Domestic Product -- that is, the states moved left on the chart.<br/><br/>They did so without greatly changing their share of carbon-free energy sources.<br/><br/>How? This can be explained by<br/><ul><li>reduced demand per capita due to more efficient technologies</li><br/><li>the continued growth of the U.S.'s less carbon-intensive service economy increasing GDP relative to carbon emissions.</li></ul></span>",,,"{
+	""containerStyle"": {
+		""opacity"": 1
+	}, ""yearDomain"": [2000, 2010],
+	""year"": null, ""highlight"": null
+}","<span style=""font-family: Lato;"">U.S. Carbon Intensity By State Over Time<span>","<span style=""font-family: Lato; font-size: 12px"">Hover over a bubble to see state and generation in Megawatt Hours<span>"
+,intro,40,40,50,"<span style=""font-family: Lato;"">The 2010s - Accelerated Adoption of Carbon-Free Energy by States<span>","<span style=""font-family: Lato;"">With the increasing concerns over climate change, most states have started moving towards carbon-free generation sources while continuing to reduce carbon intensity.<br/><br/>That is, the bubbles representing states are now moving up!</span>",,,"{
+	""containerStyle"": {
+		""opacity"": 1
+	}, ""yearDomain"": [2010, 2017],
+	""year"": null, ""highlight"": null
+}","<span style=""font-family: Lato;"">U.S. Carbon Intensity By State Over Time<span>","<span style=""font-family: Lato; font-size: 12px"">Hover over a bubble to see state and generation in Megawatt Hours<span>"
+,timeSeries,40,40,50,"<span style=""font-family: Lato;"">Case 1 - Texas: A Dramatic Reduction in Carbon Intensity<span>","<span style=""font-family: Lato;"">The state of Texas was able to cut its carbon emissions per GDP in half over 27 years.<br/><br/>For most of that time it relied on traditional energy sources, but wind power grew dramatically as an electricity source, reaching 16% of electricity generated in Texas in 2017.</span>",,,"{
+	""year"": null, ""yearDomain"": [1990, 2017], ""highlight"": [""TX""],
+	""svgFileName"": null,
+	""snippet"": null
+}","<span style=""font-family: Lato;"">U.S. Carbon Intensity By State Over Time<span>","<span style=""font-family: Lato; font-size: 12px"">Hover over a bubble to see state and generation in Megawatt Hours<span>"
+,timeSeries,40,40,50,"<span style=""font-family: Lato;"">Case 2 - Florida: Still Not Going Carbon-Free<span>","<span style=""font-family: Lato;"">Not all states are increasing their use of carbon-free sources.<br/><br/>Florida's share of carbon-free electricity sources has actually decreased from 1990 to 2017.</span>",,,"{
+	""year"": null, ""yearDomain"": [1990, 2017], ""highlight"": [""FL""],
+	""containerStyle"": {
+		""opacity"": 1
+	},
+	""snippet"": ""sectionConfigBuildGraph"",
+	""svgFileName"": null
+}","<span style=""font-family: Lato;"">U.S. Carbon Intensity By State Over Time<span>","<span style=""font-family: Lato; font-size: 12px"">Hover over a bubble to see state and generation in Megawatt Hours<span>"
+,timeSeries,40,40,50,"<span style=""font-family: Lato;"">Case 3 - California: A Net Importer with Strong Local Renewable Credentials<span>","<span style=""font-family: Lato;"">California is unusual in that its Carbon Intensity per GDP has always been relatively low.<br/><br/>In fact, while California had an impressive share of carbon-free electricity generated in the state during this period, it consumed much more electricity than it generated.<br/><br/>In 2017, for example, California imported 29% of its electricity<sup><a href=""https://www.energy.ca.gov/data-reports/energy-almanac/california-electricity-data/2019-total-system-electric-generation/2017"">6</a></sup>, which is why California's bubble is much smaller than that of Texas.</span>",,,"{
+	""year"": null, ""yearDomain"": [1990, 2017], ""highlight"": [""CA""],
+	""containerStyle"": {
+		""opacity"": 1
+	}, ""interactive"": false,
+	""snippet"": ""sectionConfigBuildGraph"",
+	""svgFileName"": null
+}","<span style=""font-family: Lato;"">U.S. Carbon Intensity By State Over Time<span>","<span style=""font-family: Lato; font-size: 12px"">Hover over a bubble to see state and generation in Megawatt Hours<span>"
+,timeSeries,40,40,50,"<span style=""font-family: Lato;"">Explore On Your Own<span>","<span style=""font-family: Lato;"">See how carbon intensity has changed in different states between 1990 and 2017.<br/><br/>Click a 'bubble' and trace its evolution over the past 30 years.</span>",,,"{
+	""year"": null, ""yearDomain"": [1990, 2017], ""highlight"": null,
+	""containerStyle"": {
+		""opacity"": 1
+	}, ""interactive"": true,
+	""snippet"": ""sectionConfigBuildGraph"",
+	""svgFileName"": null
+}","<span style=""font-family: Lato;"">U.S. Carbon Intensity By State Over Time<span>","<span style=""font-family: Lato; font-size: 12px"">Hover over a bubble to see state and generation in Megawatt Hours<span>"
